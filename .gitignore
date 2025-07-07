@@ -1,1 +1,3 @@
-lib/*
+lib/day2-3/serializable_user.dart
+lib/day2-3/serializable_user.g.dart
+lib/day2-3/result2.json
