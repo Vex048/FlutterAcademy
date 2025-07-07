@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\PRACA\Dart-Trening\flutter_application_1\build\windows\x64\CMakeFiles\0b117ea41152874d0a45c3d771ae474b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C5146E04-A69B-3207-8D57-05236B7B1C28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

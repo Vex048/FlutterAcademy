@@ -1,0 +1,10 @@
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/CMakeFiles/INSTALL.dir
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/runner/CMakeFiles/flutter_application_1.dir
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+D:/PRACA/Dart-Trening/flutter_application_1/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir
