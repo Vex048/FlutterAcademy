@@ -8,16 +8,35 @@
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
+        "dio",
         "flutter",
         "freezed_annotation",
-        "json_annotation"
+        "json_annotation",
+        "logger",
+        "retrofit"
       ],
       "devDependencies": [
         "build_runner",
         "flutter_lints",
         "flutter_test",
         "freezed",
-        "json_serializable"
+        "json_serializable",
+        "retrofit_generator"
+      ]
+    },
+    {
+      "name": "retrofit_generator",
+      "version": "9.2.0",
+      "dependencies": [
+        "analyzer",
+        "build",
+        "built_collection",
+        "code_builder",
+        "dart_style",
+        "dio",
+        "protobuf",
+        "retrofit",
+        "source_gen"
       ]
     },
     {
@@ -133,6 +152,31 @@
       ]
     },
     {
+      "name": "logger",
+      "version": "2.6.0",
+      "dependencies": []
+    },
+    {
+      "name": "dio",
+      "version": "5.8.0+1",
+      "dependencies": [
+        "async",
+        "collection",
+        "dio_web_adapter",
+        "http_parser",
+        "meta",
+        "path"
+      ]
+    },
+    {
+      "name": "retrofit",
+      "version": "4.5.0",
+      "dependencies": [
+        "dio",
+        "meta"
+      ]
+    },
+    {
       "name": "freezed_annotation",
       "version": "3.1.0",
       "dependencies": [
@@ -166,10 +210,27 @@
       ]
     },
     {
-      "name": "pub_semver",
-      "version": "2.2.0",
+      "name": "source_gen",
+      "version": "2.0.0",
       "dependencies": [
-        "collection"
+        "analyzer",
+        "async",
+        "build",
+        "dart_style",
+        "glob",
+        "path",
+        "pub_semver",
+        "source_span",
+        "yaml"
+      ]
+    },
+    {
+      "name": "protobuf",
+      "version": "4.1.0",
+      "dependencies": [
+        "collection",
+        "fixnum",
+        "meta"
       ]
     },
     {
@@ -187,40 +248,20 @@
       ]
     },
     {
-      "name": "source_gen",
-      "version": "2.0.0",
+      "name": "code_builder",
+      "version": "4.10.1",
       "dependencies": [
-        "analyzer",
-        "async",
-        "build",
-        "dart_style",
-        "glob",
-        "path",
-        "pub_semver",
-        "source_span",
-        "yaml"
+        "built_collection",
+        "built_value",
+        "collection",
+        "matcher",
+        "meta"
       ]
     },
     {
-      "name": "meta",
-      "version": "1.16.0",
+      "name": "built_collection",
+      "version": "5.1.1",
       "dependencies": []
-    },
-    {
-      "name": "collection",
-      "version": "1.19.1",
-      "dependencies": []
-    },
-    {
-      "name": "build_config",
-      "version": "1.1.2",
-      "dependencies": [
-        "checked_yaml",
-        "json_annotation",
-        "path",
-        "pubspec_parse",
-        "yaml"
-      ]
     },
     {
       "name": "build",
@@ -257,6 +298,34 @@
         "pub_semver",
         "source_span",
         "watcher",
+        "yaml"
+      ]
+    },
+    {
+      "name": "pub_semver",
+      "version": "2.2.0",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "meta",
+      "version": "1.16.0",
+      "dependencies": []
+    },
+    {
+      "name": "collection",
+      "version": "1.19.1",
+      "dependencies": []
+    },
+    {
+      "name": "build_config",
+      "version": "1.1.2",
+      "dependencies": [
+        "checked_yaml",
+        "json_annotation",
+        "path",
+        "pubspec_parse",
         "yaml"
       ]
     },
@@ -453,17 +522,6 @@
       "version": "3.0.6",
       "dependencies": [
         "typed_data"
-      ]
-    },
-    {
-      "name": "code_builder",
-      "version": "4.10.1",
-      "dependencies": [
-        "built_collection",
-        "built_value",
-        "collection",
-        "matcher",
-        "meta"
       ]
     },
     {
@@ -671,25 +729,34 @@
       ]
     },
     {
+      "name": "dio_web_adapter",
+      "version": "2.1.1",
+      "dependencies": [
+        "dio",
+        "http_parser",
+        "meta",
+        "web"
+      ]
+    },
+    {
+      "name": "http_parser",
+      "version": "4.1.2",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner",
+        "typed_data"
+      ]
+    },
+    {
       "name": "sky_engine",
       "version": "0.0.0",
       "dependencies": []
     },
     {
-      "name": "checked_yaml",
-      "version": "2.0.4",
-      "dependencies": [
-        "json_annotation",
-        "source_span",
-        "yaml"
-      ]
-    },
-    {
-      "name": "convert",
-      "version": "3.1.2",
-      "dependencies": [
-        "typed_data"
-      ]
+      "name": "fixnum",
+      "version": "1.1.1",
+      "dependencies": []
     },
     {
       "name": "built_value",
@@ -702,9 +769,11 @@
       ]
     },
     {
-      "name": "built_collection",
-      "version": "5.1.1",
-      "dependencies": []
+      "name": "convert",
+      "version": "3.1.2",
+      "dependencies": [
+        "typed_data"
+      ]
     },
     {
       "name": "_fe_analyzer_shared",
@@ -714,20 +783,19 @@
       ]
     },
     {
+      "name": "checked_yaml",
+      "version": "2.0.4",
+      "dependencies": [
+        "json_annotation",
+        "source_span",
+        "yaml"
+      ]
+    },
+    {
       "name": "web_socket",
       "version": "1.0.1",
       "dependencies": [
         "web"
-      ]
-    },
-    {
-      "name": "http_parser",
-      "version": "4.1.2",
-      "dependencies": [
-        "collection",
-        "source_span",
-        "string_scanner",
-        "typed_data"
       ]
     },
     {
@@ -744,11 +812,6 @@
       "dependencies": [
         "collection"
       ]
-    },
-    {
-      "name": "fixnum",
-      "version": "1.1.1",
-      "dependencies": []
     }
   ],
   "configVersion": 1
