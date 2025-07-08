@@ -11,6 +11,307 @@ part of 'freezed_test.dart';
 
 // dart format off
 T _$identity<T>(T value) => value;
+/// @nodoc
+mixin _$UserCheck {
+
+
+
+
+
+@override
+bool operator ==(Object other) {
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is UserCheck);
+}
+
+
+@override
+int get hashCode => runtimeType.hashCode;
+
+@override
+String toString() {
+  return 'UserCheck()';
+}
+
+
+}
+
+/// @nodoc
+class $UserCheckCopyWith<$Res>  {
+$UserCheckCopyWith(UserCheck _, $Res Function(UserCheck) __);
+}
+
+
+/// Adds pattern-matching-related methods to [UserCheck].
+extension UserCheckPatterns on UserCheck {
+/// A variant of `map` that fallback to returning `orElse`.
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case final Subclass value:
+///     return ...;
+///   case _:
+///     return orElse();
+/// }
+/// ```
+
+@optionalTypeArgs TResult maybeMap<TResult extends Object?>({TResult Function( Data value)?  succes,TResult Function( Error value)?  error,required TResult orElse(),}){
+final _that = this;
+switch (_that) {
+case Data() when succes != null:
+return succes(_that);case Error() when error != null:
+return error(_that);case _:
+  return orElse();
+
+}
+}
+/// A `switch`-like method, using callbacks.
+///
+/// Callbacks receives the raw object, upcasted.
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case final Subclass value:
+///     return ...;
+///   case final Subclass2 value:
+///     return ...;
+/// }
+/// ```
+
+@optionalTypeArgs TResult map<TResult extends Object?>({required TResult Function( Data value)  succes,required TResult Function( Error value)  error,}){
+final _that = this;
+switch (_that) {
+case Data():
+return succes(_that);case Error():
+return error(_that);}
+}
+/// A variant of `map` that fallback to returning `null`.
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case final Subclass value:
+///     return ...;
+///   case _:
+///     return null;
+/// }
+/// ```
+
+@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>({TResult? Function( Data value)?  succes,TResult? Function( Error value)?  error,}){
+final _that = this;
+switch (_that) {
+case Data() when succes != null:
+return succes(_that);case Error() when error != null:
+return error(_that);case _:
+  return null;
+
+}
+}
+/// A variant of `when` that fallback to an `orElse` callback.
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case Subclass(:final field):
+///     return ...;
+///   case _:
+///     return orElse();
+/// }
+/// ```
+
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>({TResult Function( User user)?  succes,TResult Function( Exception error)?  error,required TResult orElse(),}) {final _that = this;
+switch (_that) {
+case Data() when succes != null:
+return succes(_that.user);case Error() when error != null:
+return error(_that.error);case _:
+  return orElse();
+
+}
+}
+/// A `switch`-like method, using callbacks.
+///
+/// As opposed to `map`, this offers destructuring.
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case Subclass(:final field):
+///     return ...;
+///   case Subclass2(:final field2):
+///     return ...;
+/// }
+/// ```
+
+@optionalTypeArgs TResult when<TResult extends Object?>({required TResult Function( User user)  succes,required TResult Function( Exception error)  error,}) {final _that = this;
+switch (_that) {
+case Data():
+return succes(_that.user);case Error():
+return error(_that.error);}
+}
+/// A variant of `when` that fallback to returning `null`
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case Subclass(:final field):
+///     return ...;
+///   case _:
+///     return null;
+/// }
+/// ```
+
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>({TResult? Function( User user)?  succes,TResult? Function( Exception error)?  error,}) {final _that = this;
+switch (_that) {
+case Data() when succes != null:
+return succes(_that.user);case Error() when error != null:
+return error(_that.error);case _:
+  return null;
+
+}
+}
+
+}
+
+/// @nodoc
+
+
+class Data implements UserCheck {
+   Data(this.user);
+  
+
+ final  User user;
+
+/// Create a copy of UserCheck
+/// with the given fields replaced by the non-null parameter values.
+@JsonKey(includeFromJson: false, includeToJson: false)
+@pragma('vm:prefer-inline')
+$DataCopyWith<Data> get copyWith => _$DataCopyWithImpl<Data>(this, _$identity);
+
+
+
+@override
+bool operator ==(Object other) {
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Data&&(identical(other.user, user) || other.user == user));
+}
+
+
+@override
+int get hashCode => Object.hash(runtimeType,user);
+
+@override
+String toString() {
+  return 'UserCheck.succes(user: $user)';
+}
+
+
+}
+
+/// @nodoc
+abstract mixin class $DataCopyWith<$Res> implements $UserCheckCopyWith<$Res> {
+  factory $DataCopyWith(Data value, $Res Function(Data) _then) = _$DataCopyWithImpl;
+@useResult
+$Res call({
+ User user
+});
+
+
+$UserCopyWith<$Res> get user;
+
+}
+/// @nodoc
+class _$DataCopyWithImpl<$Res>
+    implements $DataCopyWith<$Res> {
+  _$DataCopyWithImpl(this._self, this._then);
+
+  final Data _self;
+  final $Res Function(Data) _then;
+
+/// Create a copy of UserCheck
+/// with the given fields replaced by the non-null parameter values.
+@pragma('vm:prefer-inline') $Res call({Object? user = null,}) {
+  return _then(Data(
+null == user ? _self.user : user // ignore: cast_nullable_to_non_nullable
+as User,
+  ));
+}
+
+/// Create a copy of UserCheck
+/// with the given fields replaced by the non-null parameter values.
+@override
+@pragma('vm:prefer-inline')
+$UserCopyWith<$Res> get user {
+  
+  return $UserCopyWith<$Res>(_self.user, (value) {
+    return _then(_self.copyWith(user: value));
+  });
+}
+}
+
+/// @nodoc
+
+
+class Error implements UserCheck {
+   Error(this.error);
+  
+
+ final  Exception error;
+
+/// Create a copy of UserCheck
+/// with the given fields replaced by the non-null parameter values.
+@JsonKey(includeFromJson: false, includeToJson: false)
+@pragma('vm:prefer-inline')
+$ErrorCopyWith<Error> get copyWith => _$ErrorCopyWithImpl<Error>(this, _$identity);
+
+
+
+@override
+bool operator ==(Object other) {
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Error&&(identical(other.error, error) || other.error == error));
+}
+
+
+@override
+int get hashCode => Object.hash(runtimeType,error);
+
+@override
+String toString() {
+  return 'UserCheck.error(error: $error)';
+}
+
+
+}
+
+/// @nodoc
+abstract mixin class $ErrorCopyWith<$Res> implements $UserCheckCopyWith<$Res> {
+  factory $ErrorCopyWith(Error value, $Res Function(Error) _then) = _$ErrorCopyWithImpl;
+@useResult
+$Res call({
+ Exception error
+});
+
+
+
+
+}
+/// @nodoc
+class _$ErrorCopyWithImpl<$Res>
+    implements $ErrorCopyWith<$Res> {
+  _$ErrorCopyWithImpl(this._self, this._then);
+
+  final Error _self;
+  final $Res Function(Error) _then;
+
+/// Create a copy of UserCheck
+/// with the given fields replaced by the non-null parameter values.
+@pragma('vm:prefer-inline') $Res call({Object? error = null,}) {
+  return _then(Error(
+null == error ? _self.error : error // ignore: cast_nullable_to_non_nullable
+as Exception,
+  ));
+}
+
+
+}
+
 
 /// @nodoc
 mixin _$User {
