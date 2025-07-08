@@ -1,0 +1,35 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'freezed_test.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_User _$UserFromJson(Map<String, dynamic> json) => _User(
+  username: json['username'] as String,
+  password: json['password'] as String,
+  email: json['email'] as String,
+  phone_number: json['phone_number'] as String,
+  first_name: json['first_name'] as String,
+  second_name: json['second_name'] as String?,
+  last_name: json['last_name'] as String,
+  description: json['description'] as String?,
+  age: (json['age'] as num).toInt(),
+  sex: $enumDecode(_$SexEnumMap, json['sex']),
+);
+
+Map<String, dynamic> _$UserToJson(_User instance) => <String, dynamic>{
+  'username': instance.username,
+  'password': instance.password,
+  'email': instance.email,
+  'phone_number': instance.phone_number,
+  'first_name': instance.first_name,
+  'second_name': instance.second_name,
+  'last_name': instance.last_name,
+  'description': instance.description,
+  'age': instance.age,
+  'sex': _$SexEnumMap[instance.sex]!,
+};
+
+const _$SexEnumMap = {Sex.M: 'M', Sex.K: 'K', Sex.NB: 'NB'};

@@ -170,6 +170,18 @@
       "languageVersion": "3.7"
     },
     {
+      "name": "freezed",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/freezed-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "freezed_annotation",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/freezed_annotation-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "frontend_server_client",
       "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/frontend_server_client-4.0.0",
       "packageUri": "lib/",
