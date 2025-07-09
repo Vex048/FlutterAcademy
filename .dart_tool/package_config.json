@@ -3,13 +3,19 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-85.0.0",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-82.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-7.5.4",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-7.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "analyzer_plugin",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer_plugin-0.13.1",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -92,6 +98,18 @@
       "languageVersion": "3.8"
     },
     {
+      "name": "ci",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/ci-0.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cli_util",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/cli_util-0.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "clock",
       "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/clock-1.1.2",
       "packageUri": "lib/",
@@ -126,6 +144,30 @@
       "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.8",
       "packageUri": "lib/",
       "languageVersion": "3.1"
+    },
+    {
+      "name": "custom_lint",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/custom_lint-0.7.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "custom_lint_builder",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/custom_lint_builder-0.7.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "custom_lint_core",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/custom_lint_core-0.7.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "custom_lint_visitor",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/custom_lint_visitor-1.0.0+7.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "dart_style",
@@ -176,6 +218,12 @@
       "languageVersion": "3.8"
     },
     {
+      "name": "flutter_riverpod",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_riverpod-2.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///D:/Software/Flutter%20SDK/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -212,6 +260,12 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "hotreloader",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/hotreloader-4.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "http",
       "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.4.0",
       "packageUri": "lib/",
@@ -228,6 +282,12 @@
       "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.20.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "io",
@@ -362,6 +422,42 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "riverpod",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/riverpod-2.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "riverpod_analyzer_utils",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/riverpod_analyzer_utils-0.5.10",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "riverpod_annotation",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/riverpod_annotation-2.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "riverpod_generator",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/riverpod_generator-2.6.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "riverpod_lint",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/riverpod_lint-2.6.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "rxdart",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/rxdart-0.28.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "shelf",
       "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/shelf-1.4.2",
       "packageUri": "lib/",
@@ -398,10 +494,22 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "sprintf",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/sprintf-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "stack_trace",
       "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.12.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "state_notifier",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/state_notifier-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "stream_channel",
@@ -444,6 +552,12 @@
       "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "uuid",
+      "rootUri": "file:///C:/Users/Borow/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "vector_math",
