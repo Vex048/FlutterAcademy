@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlueAccent),
       ),
       // Budowa głównego widoku HomePage
-      home: const MyHomePage(title: 'Testing API calls'),
+      home: const MyHomePage(title: "Home Highlight App"),
     );
   }
 }
