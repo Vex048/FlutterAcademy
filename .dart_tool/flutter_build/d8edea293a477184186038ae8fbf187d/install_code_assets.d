@@ -1,0 +1,1 @@
+ D:\\PRACA\\Dart-Trening\\flutter_application_1\\.dart_tool\\flutter_build\\d8edea293a477184186038ae8fbf187d\\native_assets.json: 

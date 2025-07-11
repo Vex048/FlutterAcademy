@@ -17,7 +17,8 @@
         "json_annotation",
         "logger",
         "retrofit",
-        "riverpod_annotation"
+        "riverpod_annotation",
+        "video_thumbnail"
       ],
       "devDependencies": [
         "build_runner",
@@ -212,6 +213,13 @@
         "test_api",
         "vector_math",
         "vm_service"
+      ]
+    },
+    {
+      "name": "video_thumbnail",
+      "version": "0.5.6",
+      "dependencies": [
+        "flutter"
       ]
     },
     {
